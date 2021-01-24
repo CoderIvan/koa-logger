@@ -1,6 +1,6 @@
 {
   "name": "@z-ivan/koa-logger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "lib/index.js",
   "repository": {
@@ -15,6 +15,7 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "dependencies": {
+    "bytes": "^3.1.0",
     "chalk": "^4.1.0"
   },
   "scripts": {
