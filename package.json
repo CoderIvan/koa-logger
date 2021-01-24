@@ -1,0 +1,24 @@
+{
+  "name": "@z-ivan/koa-logger",
+  "version": "0.0.2",
+  "description": "",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoderIvan/koa-logger"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint": "^7.18.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "ci": "npm run lint"
+  }
+}
